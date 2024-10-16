@@ -1,0 +1,57 @@
+/* result.css */
+
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Container styling */
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Headers */
+h1, h2, h5 {
+    text-align: center;
+    color: #000000;
+}
+
+/* Table styling */
+.table-responsive {
+    margin-top: 20px;
+}
+
+/* Image styling */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.15), 0 15px 40px rgba(0, 0, 0, 0.1); /* Enhanced shadow */
+    border-radius: 5px;
+}
+
+/* Button styling */
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px auto; /* Center the button */
+    display: block; /* Ensure the button is a block element for centering */
+}
+
+a:hover {
+    background-color: #0056b3;
+}
